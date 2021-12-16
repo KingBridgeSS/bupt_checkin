@@ -11,125 +11,125 @@ REPORT_API = 'https://app.bupt.edu.cn/ncov/wap/default/save'
 # 当今日没有填报时，在https://app.bupt.edu.cn/ncov/wap/default/index下进行填报，
 # 全部填完，不要提交，f12打开控制台，在Console页面下输入代码 console.log(vm.info) 就会得到以下信息，之后每天就默认填以下信息
 INFO = r"""{
-        address: "北京市昌平区沙河镇北京邮电大学沙河校区雁北园男生宿舍"
+        address: "北京市昌平区沙河镇北京邮电大学沙河校区雁北园男生宿舍",
 ​
-area: "北京市  昌平区"
+area: "北京市  昌平区",
 ​
-bztcyy: ""
+bztcyy: "",
 ​
-city: "北京市"
+city: "北京市",
 ​
-created: 1639585453
+created: 1639585453,
 ​
-created_uid: 0
+created_uid: 0,
 ​
-csmjry: "0"
+csmjry: "0",
 ​
-date: "20211216"
+date: "20211216",
 ​
 geo_api_info: "{\"type\":\"complete\",\"position\":{\"Q\":40.157922634549,\"R\":116.28848578559098,\"lng\":116.288486,\"lat\":40.157923},\"location_type\":\"html5\",\"message\":\"Get ipLocation failed.Get geolocation success.Convert Success.Get address success.\",\"accuracy\":76,\"isConverted\":true,\"status\":1,\"addressComponent\":{\"citycode\":\"010\",\"adcode\":\"110114\",\"businessAreas\":[{\"name\":\"沙河\",\"id\":\"110114\",\"location\":{\"Q\":40.134237,\"R\":116.28009600000001,\"lng\":116.280096,\"lat\":40.134237}},{\"name\":\"百善\",\"id\":\"110114\",\"location\":{\"Q\":40.175749,\"R\":116.32030500000002,\"lng\":116.320305,\"lat\":40.175749}}],\"neighborhoodType\":\"\",\"neighborhood\":\"\",\"building\":\"\",\"buildingType\":\"\",\"street\":\"南丰路\",\"streetNumber\":\"1号\",\"country\":\"中国\",\"province\":\"北京市\",\"city\":\"\",\"district\":\"昌平区\",\"towncode\":\"110114123000\",\"township\":\"沙河镇\"},\"formattedAddress\":\"北京市昌平区沙河镇北京邮电大学沙河校区雁北园男生宿舍\",\"roads\":[],\"crosses\":[],\"pois\":[],\"info\":\"SUCCESS\"}"
 ​
-glksrq: ""
+,glksrq: "",
 ​
-gllx: ""
+gllx: "",
 ​
-gtjzzfjsj: ""
+gtjzzfjsj: "",
 ​
-gwszdd: ""
+gwszdd: "",
 ​
-id: 16000670
+id: 16000670,
 ​
-ismoved: 0
+ismoved: 0,
 ​
-jcbhlx: ""
+jcbhlx: "",
 ​
-jcbhrq: ""
+jcbhrq: "",
 ​
-jchbryfs: ""
+jchbryfs: "",
 ​
-jcjg: ""
+jcjg: "",
 ​
-jcjgqr: "0"
+jcjgqr: "0",
 ​
-jcqzrq: ""
+jcqzrq: "",
 ​
-jcwhryfs: ""
+jcwhryfs: "",
 ​
-jhfjhbcc: ""
+jhfjhbcc: "",
 ​
-jhfjjtgj: ""
+jhfjjtgj: "",
 ​
-jhfjrq: ""
+jhfjrq: "",
 ​
-jrsfqzfy: ""
+jrsfqzfy: "",
 ​
-jrsfqzys: ""
+jrsfqzys: "",
 ​
-mjry: "0"
+mjry: "0",
 ​
-province: "北京市"
+province: "北京市",
 ​
-qksm: ""
+qksm: "",
 ​
-remark: ""
+remark: "",
 ​
-sfcxtz: "0"
+sfcxtz: "0",
 ​
-sfcxzysx: "0"
+sfcxzysx: "0",
 ​
-sfcyglq: "0"
+sfcyglq: "0",
 ​
-sfjcbh: "0"
+sfjcbh: "0",
 ​
-sfjchbry: "0"
+sfjchbry: "0",
 ​
-sfjcqz: ""
+sfjcqz: "",
 ​
-sfjcwhry: "0"
+sfjcwhry: "0",
 ​
-sfjzdezxgym: 1
+sfjzdezxgym: 1,
 ​
-sfjzxgym: 1
+sfjzxgym: 1,
 ​
-sfsfbh: 0
+sfsfbh: 0,
 ​
-sfsqhzjkk: 0
+sfsqhzjkk: 0,
 ​
-sftjhb: "0"
+sftjhb: "0",
 ​
-sftjwh: "0"
+sftjwh: "0",
 ​
-sfxk: 0
+sfxk: 0,
 ​
-sfygtjzzfj: 0
+sfygtjzzfj: 0,
 ​
-sfyqjzgc: ""
+sfyqjzgc: "",
 ​
-sfyyjc: "0"
+sfyyjc: "0",
 ​
-sfzx: 1
+sfzx: 1,
 ​
-sqhzjkkys: ""
+sqhzjkkys: "",
 ​
-szcs: ""
+szcs: "",
 ​
-szgj: ""
+szgj: "",
 ​
-szsqsfybl: 0
+szsqsfybl: 0,
 ​
-tw: "3"
+tw: "3",
 ​
-uid: "83242"
+uid: "83242",
 ​
-xjzd: ""
+xjzd: "",
 ​
-xkqq: ""
+xkqq: "",
 ​
-xwxgymjzqk: 3
+xwxgymjzqk: 3,
 ​
-ymjzxgqk: ""
+ymjzxgqk: "",
 ​
-zgfxdq: "0"
+zgfxdq: "0",
         }"""
 
 REASONABLE_LENGTH = 24
