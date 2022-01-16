@@ -10,56 +10,7 @@ REPORT_API = 'https://app.bupt.edu.cn/ncov/wap/default/save'
 
 # 当今日没有填报时，在https://app.bupt.edu.cn/ncov/wap/default/index下进行填报，
 # 全部填完，不要提交，f12打开控制台，在Console页面下输入代码 console.log(vm.info) 就会得到以下信息，之后每天就默认填以下信息
-INFO = r"""{
-        "address":"北京市昌平区沙河镇北京邮电大学沙河校区雁北园男生宿舍",
-        "area":"北京市  昌平区",
-        "bztcyy":"",
-        "city":"北京市",
-        "csmjry":"0",
-        "fjqszgjdq":"",
-        "geo_api_info": "{\"type\":\"complete\",\"position\":{\"Q\":40.157922634549,\"R\":116.28848578559098,\"lng\":116.288486,\"lat\":40.157923},\"location_type\":\"html5\",\"message\":\"Get ipLocation failed.Get geolocation success.Convert Success.Get address success.\",\"accuracy\":76,\"isConverted\":true,\"status\":1,\"addressComponent\":{\"citycode\":\"010\",\"adcode\":\"110114\",\"businessAreas\":[{\"name\":\"沙河\",\"id\":\"110114\",\"location\":{\"Q\":40.134237,\"R\":116.28009600000001,\"lng\":116.280096,\"lat\":40.134237}},{\"name\":\"百善\",\"id\":\"110114\",\"location\":{\"Q\":40.175749,\"R\":116.32030500000002,\"lng\":116.320305,\"lat\":40.175749}}],\"neighborhoodType\":\"\",\"neighborhood\":\"\",\"building\":\"\",\"buildingType\":\"\",\"street\":\"南丰路\",\"streetNumber\":\"1号\",\"country\":\"中国\",\"province\":\"北京市\",\"city\":\"\",\"district\":\"昌平区\",\"towncode\":\"110114123000\",\"township\":\"沙河镇\"},\"formattedAddress\":\"北京市昌平区沙河镇北京邮电大学沙河校区雁北园男生宿舍\",\"roads\":[],\"crosses\":[],\"pois\":[],\"info\":\"SUCCESS\"}"
-        ,"glksrq":"",
-        "gllx":"",
-        "gtjzzchdfh":"",
-        "gtjzzfjsj":"",
-        "ismoved":"0",
-        "jcbhlx":"",
-        "jcbhrq":"",
-        "jchbryfs":"",
-        "jcjgqr":"0",
-        "jcwhryfs":"",
-        "jhfjhbcc":"",
-        "jhfjjtgj":"",
-        "jhfjrq":"",
-        "mjry":"0",
-        "province":"北京市",
-        "qksm":"",
-        "remark":"",
-        "sfcxtz":"0",
-        "sfcxzysx":"0",
-        "sfcyglq":"0",
-        "sfjcbh":"0",
-        "sfjchbry":"0",
-        "sfjcwhry":"0",
-        "sfjzdezxgym":"1",
-        "sfjzxgym":"1",
-        "sfsfbh":"0",
-        "sftjhb":"0",
-        "sftjwh":"0",
-        "sfxk":"0",
-        "sfygtjzzfj":"",
-        "sfyyjc":"0",
-        "sfzx":1,
-        "szcs":"",
-        "szgj":"",
-        "szsqsfybl":"0",
-        "tw":"3",
-        "xjzd":"",
-        "xkqq":"",
-        "xwxgymjzqk":"3",
-        "ymjzxgqk":"已接种",
-        "zgfxdq":"0"
-        }"""
+INFO = r"""{"ismoved":0,"jhfjrq":"","jhfjjtgj":"","jhfjhbcc":"","sfxk":0,"xkqq":"","szgj":"","szcs":"","zgfxdq":"0","mjry":"0","csmjry":"0","ymjzxgqk":"","xwxgymjzqk":3,"tw":"3","sfcxtz":"0","sfjcbh":"0","sfcxzysx":"0","qksm":"","sfyyjc":"0","jcjgqr":"0","remark":"","address":"广西壮族自治区柳州市柳南区鹅山街道革新路17号柳州市第四十七中学","geo_api_info":"{\"type\":\"complete\",\"info\":\"SUCCESS\",\"status\":1,\"fEa\":\"jsonp_61172_\",\"position\":{\"Q\":24.3,\"R\":109.37200000000001,\"lng\":109.372,\"lat\":24.3},\"message\":\"Get ipLocation success.Get address success.\",\"location_type\":\"ip\",\"accuracy\":null,\"isConverted\":true,\"addressComponent\":{\"citycode\":\"0772\",\"adcode\":\"450204\",\"businessAreas\":[],\"neighborhoodType\":\"\",\"neighborhood\":\"\",\"building\":\"\",\"buildingType\":\"\",\"street\":\"革新路\",\"streetNumber\":\"17号\",\"country\":\"中国\",\"province\":\"广西壮族自治区\",\"city\":\"柳州市\",\"district\":\"柳南区\",\"towncode\":\"450204005000\",\"township\":\"鹅山街道\"},\"formattedAddress\":\"广西壮族自治区柳州市柳南区鹅山街道革新路17号柳州市第四十七中学\",\"roads\":[],\"crosses\":[],\"pois\":[]}","area":"广西壮族自治区 柳州市 柳南区","province":"广西壮族自治区","city":"柳州市","sfzx":0,"sfjcwhry":"0","sfjchbry":"0","sfcyglq":"0","gllx":"","glksrq":"","jcbhlx":"","jcbhrq":"","bztcyy":"","sftjhb":"0","sftjwh":"0","sfsfbh":0,"xjzd":"广西壮族自治柳州市柳南区永前东四区15-1-602","jcwhryfs":"","jchbryfs":"","szsqsfybl":0,"sfygtjzzfj":0,"gtjzzfjsj":"","sfjzxgym":1,"sfjzdezxgym":1,"jcjg":"","date":"20220116","uid":"83242","created":1642262433,"jcqzrq":"","sfjcqz":"","sfsqhzjkk":0,"sqhzjkkys":"","created_uid":0,"id":16878191,"gwszdd":"","sfyqjzgc":"","jrsfqzys":"","jrsfqzfy":""}"""
 
 
 REASONABLE_LENGTH = 24
